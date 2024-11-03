@@ -1,0 +1,38 @@
+Software Requirements:
+1. Java 8 and above -> C:Java\jdk\
+2. Spark 3 with Hadoop 2.7 -> C:Spark\Spark-version\
+3. Python 3.9 -> Add path variable
+4. Winutils 2.7 -> C:hadoop\bin
+
+
+ENVIRONAMENT VARIABLES
+|
+|----> USER  (if set for an User, only that particular user can access) 
+|       |
+|       |----> Vairables 
+|       |----> Path
+|
+|----> SYSTEM (all can access)
+
+Variables: Of we call JAVA_HOME variable, it should give the path mentioned
+JAVA_HOME -> C:Java\jdk
+HADOOP_HOME -> C:hadoop
+SPARK_HOME -> C:spark\spark_version
+PYSPARK_HOME -> C:....\python.exe
+
+Path: Using the same Variables, we will access the bin files
+%JAVA_HOME%\bin
+%HADOOP_HOME%\bin
+%SPARK_HOME%\bin
+
+Go to Environment Variables
+Go to User Variable to create Variables
+To create JAVA_HOME, enter name and browse path as C:\Java\jdk
+To create HADOOP_HOME, enter name and browse path C:\Hadoop
+To create SPARK_HOME, enter name and browse path C:\Spark\spark-3.3.2-bin-hadoop2
+To create PYSPARK_HOME, enter name and browse path C:\Users\akash\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9\python.exe
+
+Now we need to add Path for User
+%JAVA_HOME%\bin
+%HADOOP_HOME%\bin
+%SPARK_HOME%\bin
